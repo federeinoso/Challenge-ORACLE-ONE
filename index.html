@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="author" content="FedeReinoso" />
+    <meta name="description" content="Alura-Oracle-Challenge-1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="icon" href="/images/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Encriptador de texto</title>
+  </head>
+  <body>
+    <img src="/images/Logo.svg" id="logo" />
+    <div id="container-wrapper">
+      <div id="container">
+        <textarea
+          type="text"
+          placeholder="Ingrese texto aquí"
+          maxlength="200"
+        ></textarea>
+        <div id="btnSection">
+          <div id="container1">
+            <img src="/images/normal.svg" id="exclamation" />
+            <p id="text1" class="text1">Solo letras minúsculas y sin acentos</p>
+          </div>
+          <div id="containerBtn">
+            <button id="encriptarBtn">Encriptar</button>
+            <button id="desencriptarBtn">Desencriptar</button>
+          </div>
+        </div>
+      </div>
+      <div id="rectangle">
+        <div id="contianerImagen">
+          <img src="/images/Muñeco.svg" id="muñeco" />
+          <div id="text2">
+            <p id="t1">Ningún mensaje fue encontrado</p>
+            <p id="t2">Ingresa el texto que desees encriptar o desencriptar.</p>
+          </div>
+        </div>
+      </div>
+      <div class="containerResultado" id="containerResultado">
+        <div id="containerFinal">
+          <div id="textoEncriptado"></div>
+          <button id="copiarBtn" class="copiarBtn">Copiar</button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js" defer></script>
+</html>
