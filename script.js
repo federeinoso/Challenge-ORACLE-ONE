@@ -17,13 +17,13 @@ let imagen = document.getElementById("exclamation");
 function displayNormal() {
   text1.classList.add("text1");
   text1.classList.remove("warning");
-  imagen.src = "/images/normal.svg";
+  imagen.src = "images/normal.svg";
 }
 
 function displayWarning() {
   text1.classList.remove("text1");
   text1.classList.add("warning");
-  imagen.src = "/images/warning.svg";
+  imagen.src = "images/warning.svg";
 }
 
 // PRINCIPALS FUNCTIONS
